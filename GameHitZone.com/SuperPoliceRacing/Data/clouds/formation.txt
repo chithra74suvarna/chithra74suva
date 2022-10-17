@@ -1,0 +1,6 @@
+InitPos: 0 0 60
+SpeedCoeff: 1
+Wrap: 1
+WrapCenter: 0 0 60
+WrapRadius: 200
+CloudsCount: 0

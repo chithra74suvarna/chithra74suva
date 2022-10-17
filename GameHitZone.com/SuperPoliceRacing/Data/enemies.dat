@@ -1,0 +1,10 @@
+medusa 1;shot1e;4;rocket_exp1;shleyf1,2,0.15;
+m_enemy_b 2;e_fire_bullet;2;enemy_exp1;;
+b_enemy_b 2;e_fire_bullet;2;enemy_exp1;;
+m_enemy_c 3;e_green_bullet;3;enemy_exp2;;
+m_enemy_d 1;e_plazma_bullet;2;enemy_exp1;;
+m_enemy_e 10;e_fire_bullet,e_rocket;2;enemy_exp2;;
+m_enemy_gun 2.5;e_fire_bullet;1;enemy_exp2;;
+m_enemy_a 1.5;;;enemy_exp1;;
+
+b_enemy_a 1.5;;;enemy_exp1;;

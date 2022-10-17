@@ -1,0 +1,18 @@
+//name life height speed see_dist fire_dist melee_dist can_fire can_melee weapon_type melee_count weight initdir_x initdir_y initdir_z info_file blood crowd_sound
+cybe 15 2.9 3.5 40 20 7 1 1 hmgun 1 1000 0 1 0 cybe.ai blood1 mutes_run 75
+mute 10 2.5 5.0 40 7 7 0 1 0 2 600 0 -1 0 mute.ai blood1 mutes_run 30
+tankjr 35 3.1 2.5 40 18 7 1 1 rocket 1 20000 0 -1 0 tankjr.ai oil1 mutes_run 100
+scav 1 0.5 5.5 40 10 7 0 1 0 1 400 0 -1 0 scav.ai blood1 aliens_run 5
+anubis 5 1.75 6.0 40 16 7 1 1 plasma 2 500 0 -1 0 anubis.ai oil1 aliens_run 40
+beast 5 0.7 3.0 40 20 7 0 1 0 1 300 0 -1 0 beast.ai blood1 fats_run 15
+fat 10 1.85 3.5 40 20 7 0 1 0 1 300 0 -1 0 fat.ai blood1 fats_run 30
+junkie 3 1.6 5.0 40 20 7 0 1 0 2 300 0 -1 0 junkie.ai oil1 aliens_run 10
+gunmute 11 2.1 5.0 40 15 7 1 0 hmgun 2 600 0 -1 0 gunmute.ai blood1 mutes_run 35 
+pgirl 1 1.6 4.0 40 15 10 1 0 lgun 2 250 0 -1 0 pgirl.ai blood1 aliens_run 12
+oran 4 2.04 5.5 40 7 7 0 1 0 2 550 0 -1 0 oran.ai blood1 mutes_run 15
+oran_r 5 2.04 6.0 40 7 7 0 1 0 2 550 0 -1 0 oran.ai blood1 mutes_run 30
+oran_g 3 2.04 4.5 40 7 7 0 1 0 2 550 0 -1 0 oran.ai blood1 mutes_run 10
+shotgunner 3 1.6 4.0 40 15 7 1 0 shotgun 2 250 0 -1 0 shotgunner.ai blood1 alens_run 15
+zombie 2 1.6 4.5 40 20 7 0 1 0 2 250 0 -1 0 zombie.ai blood1 aliens_run 8
+snower 5 2.23 4.5 40 20 7 1 1 plasma 1 500 0 -1 0 snower.ai alien1 aliens_run 50
+boxer 5 2.23 4.5 40 20 7 0 1 explosion 1 500 0 -1 0 boxer.ai alien1 aliens_run 60

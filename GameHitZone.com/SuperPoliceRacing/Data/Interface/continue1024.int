@@ -1,0 +1,72 @@
+continue
+main.tga,1024,1024
+light,off,4,-4,4,1,0.5,1
+//,smooth
+
+[window]
+name 20,20,600,46,171,50,600,46
+
+[button]
+load 426,690,168,53,1,0,168,53
+load 645,535,168,53,1,53,168,53
+load 645,535,168,53,1,0,168,53
+ 
+[button]
+delete 624,690,168,53,1,636,168,53
+delete 645,535,168,53,1,689,168,53
+delete 645,535,168,53,1,636,168,53
+
+[button]
+back 822,690,168,53,1,530,168,53
+back 645,574,168,53,1,583,168,53
+back 645,574,168,53,1,530,168,53
+
+
+
+[window]
+bar1_ 305,377,300,68,176,330,300,68
+[window]
+bar2_ 605,377,140,68,349,330,140,68
+
+[window]
+bar1 305,434,300,68,176,330,300,68
+[window]
+bar2 605,434,140,68,349,330,140,68
+
+[window]
+bar1__ 305,491,300,68,176,330,300,68
+[window]
+bar2__ 605,491,140,68,349,330,140,68
+
+[text]
+file1 gothic2_,320,397,,center
+
+[text]
+file2 gothic2_,320,454,,center
+
+[text]
+file3 gothic2_,320,511,,center
+
+
+[text]
+file1_red gothic_,320,397,,center
+
+[text]
+file2_red gothic_,320,454,,center
+
+[text]
+file3_red gothic_,320,511,,center
+
+
+[window]
+blend1 320,397,400,68,0,0,1,1,true,center
+
+[window]
+blend2 320,454,400,68,0,0,1,1,true,center
+
+[window]
+blend3 320,511,400,68,0,0,1,1,true,center
+
+
+[window]
+cursor 0,0,56,42,968,982,56,42

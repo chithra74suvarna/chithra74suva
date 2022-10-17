@@ -1,0 +1,6 @@
+char_kostya2_picture
+car4.tga,512,512
+light,off,4,-4,4,1,0.5,1,smooth
+
+[window]
+back1 362,324,599,297,0,0,512,254

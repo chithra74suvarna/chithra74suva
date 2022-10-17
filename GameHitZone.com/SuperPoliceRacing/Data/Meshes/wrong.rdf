@@ -1,0 +1,9 @@
+Object = wrong.R3D
+
+[Box01]
+TextureFile1 = wrong.tga
+EffectFile = self_illu.fx
+Type = 0
+Collision = 0
+VertexEffect = movingtex 0.2,0.2
+

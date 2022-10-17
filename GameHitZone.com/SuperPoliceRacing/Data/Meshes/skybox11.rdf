@@ -1,0 +1,34 @@
+Object = skybox.P3D
+
+
+[skybox]
+TextureFile1 = sky6/city_dn.jpg
+EffectFile = skybox.fx
+Type = -1
+Collision = 0
+
+[bk]
+TextureFile1 = sky6/city_bk.jpg
+EffectFile = skybox.fx
+Type = -1
+Collision = 0
+[fr]
+TextureFile1 = sky6/city_fr.jpg
+EffectFile = skybox.fx
+Type = -1
+Collision = 0
+[lf]
+TextureFile1 = sky6/city_lf.jpg
+EffectFile = skybox.fx
+Type = -1
+Collision = 0
+[rt]
+TextureFile1 = sky6/city_rt.jpg
+EffectFile = skybox.fx
+Type = -1
+Collision = 0
+[up]
+TextureFile1 = sky6/city_up.jpg
+EffectFile = skybox.fx
+Type = -1
+Collision = 0

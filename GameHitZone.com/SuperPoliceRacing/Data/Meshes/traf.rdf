@@ -1,0 +1,27 @@
+Object = empty
+
+sprite = flarik, 1, 0, -0.5, 4, , 1, 0, 0, 1
+sprite = flarig, 1, 0, -0.5, 16, , 1, 0, 0, 1
+
+sprite = flarik, -1, 0, -0.5, 4, , -1, 0, 0, 1
+sprite = flarig, -1, 0, -0.5, 16, , -1, 0, 0, 1
+
+sprite = flarik, 0, 1, -0.5, 4, , 0, 1, 0, 1
+sprite = flarig, 0, 1, -0.5, 16, , 0, 1, 0, 1
+
+sprite = flarik, 0, -1, -0.5, 4, , 0, -1, 0, 1
+sprite = flarig, 0, -1, -0.5, 16, , 0, -1, 0, 1
+
+[flarik]
+TextureFile1 = traf_1.tga
+EffectFile = flickLight2.fx
+Type = 90
+Shadow = 0
+vertexeffect = flick 5,0,255
+
+[flarig]
+TextureFile1 = semi_2.tga
+EffectFile = flickLight2.fx
+Type = 90
+Shadow = 0
+vertexeffect = flick 5,0,255

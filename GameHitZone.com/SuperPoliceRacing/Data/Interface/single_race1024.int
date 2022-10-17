@@ -1,0 +1,10 @@
+loading_single
+main.tga,1024,1024
+light,off,4,-4,4,1,0.5,1
+
+[window]
+top 0,0,1024,74,0,720,1024,74
+[window]
+bottom 0,696,1024,74,0,947,1024,74
+[window]
+title 106,50,933,152,0,0,933,152

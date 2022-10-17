@@ -1,0 +1,4 @@
+//code;name;price;c1;c2;c3;c4;c5;description;level;			
+engine1;engine1;0;125;-125;125;0.0;0.0;engine1_descr;0
+engine2;engine2;5000;150;-150;125;0.0;0.0;engine2_descr;6
+engine3;engine3;10000;175;-175;150;0.0;0.0;engine3_descr;10

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<physics type = car debug = false>
+	<geometry>
+		<wheels count = 4 x = 0 y = 0.0 length = 0.5 radius = 0.4 front_min_radius = -0.08 back_min_radius = -0.08 fixed = none width = 0.25/>
+	</geometry>	
+	<params>
+		<wheels spring1 = 15.0 spring2 = 20.0 damping = 1 />
+		<speed max_front_speed = 47.0 max_rear_speed = 20.5 angle = 1.3/>
+		<friction front = 4 back = 4 slide = 0.9 />
+		<acceleration front = 1.1 back = 1 brake = 10.0 accel_front = 0.5 accel_back = 0.5 speed_front = 1 speed_back = -1 />
+		<inertion yaw = 0.3 pitch = 0.3 />
+	</params>
+</physics>		
+<render>
+	<shadow name = "lambo_shad.tga"/>
+</render>
+<camera distance = 5.5 height = 1.2 angle = 0.08 angle_div = -1000 distance_div = 50 fov_div = 1 blur = 0.1 fov = 60/>
+<camera2 distance = 7.0 height = 1.2 angle = 0.14 angle_div = -1400 distance_div = -100 fov_div = 2 blur = 0.2 fov = 55/>
+<camera3 distance = 2 height = 0.7 blur = 0 fov = 90/>

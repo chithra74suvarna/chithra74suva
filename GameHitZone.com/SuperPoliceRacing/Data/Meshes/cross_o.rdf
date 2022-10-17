@@ -1,0 +1,8 @@
+Object = cross_o.P3D
+
+
+[cross_o]
+TextureFile1 = cross.dds
+EffectFile = light.fx
+Type = 99
+Collision = 0

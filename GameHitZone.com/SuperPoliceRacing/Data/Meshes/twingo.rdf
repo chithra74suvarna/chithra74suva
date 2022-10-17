@@ -1,0 +1,60 @@
+Object = twingo.P3D
+
+
+sprite = flarig, -0.55, -1.839, 0.752, 3.0, lights, 0, -1, 0, 1.0
+sprite = flarig, 0.55, -1.839, 0.752, 3.0, lights, 0, -1, 0, 1.0
+sprite = flarig2, -0.55, 1.619, 0.918, 0.5, lights, 0, 1, 0, 1.0
+sprite = flarig2, 0.55, 1.619, 0.918, 0.5, lights, 0, 1, 0, 1.0
+
+
+[flarig]
+TextureFile1 = glow2_blue.tga
+EffectFile = sprite_nofog2.fx
+Type = 90
+Shadow = 0
+
+[flarig2]
+TextureFile1 = glow2_red.tga
+EffectFile = sprite_nofog2.fx
+Type = 90
+Shadow = 0
+
+
+[shad]
+TextureFile1 = gaz_shad.tga
+EffectFile = shadow.fx
+Type = 20
+
+[car]
+TextureFile1 = twingo.tga,nomip
+TextureFile2 = chromic3.tga
+EffectFile = alpha_env.fx
+Type = 0
+
+
+[lights]
+TextureFile1 = twingo.tga,nomip
+EffectFile = simple_self.fx
+Type = 0
+
+
+[w1]
+TextureFile1 = twingo.tga,nomip
+EffectFile = rubber.fx
+Type = 0
+
+[w0]
+TextureFile1 = twingo.tga,nomip
+EffectFile = rubber.fx
+Type = 0
+
+[w3]
+TextureFile1 = twingo.tga,nomip
+EffectFile = rubber.fx
+Type = 0
+
+[w2]
+TextureFile1 = twingo.tga,nomip
+EffectFile = rubber.fx
+Type = 0
+

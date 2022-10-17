@@ -1,0 +1,8 @@
+Object = hit.P3D
+
+
+[hit]
+TextureFile1 = hit.tga
+EffectFile = transparent_nocull.fx
+Type = 120
+Collision = 0

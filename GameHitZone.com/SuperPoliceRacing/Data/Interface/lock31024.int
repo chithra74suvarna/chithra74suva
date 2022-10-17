@@ -1,0 +1,19 @@
+lock3
+lock.tga,1024,1024
+light,off,4,-4,4,1,0.5,1
+
+[window]
+back1 0,0,1024,768,0,0,1024,768
+
+
+[text]
+text gothic,50,550,lock3,center
+
+[text]
+text5 gothic,130,550,lock3_5,center
+
+[text]
+text9 gothic,130,550,lock3_9,center
+
+[text]
+text13 gothic,130,550,lock3_13,center

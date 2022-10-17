@@ -1,0 +1,8 @@
+Object = barrel.P3D
+
+[barrel]
+TextureFile1 = phy_barrel.tga
+EffectFile = simple.fx
+Type = 0
+Collision = 1
+

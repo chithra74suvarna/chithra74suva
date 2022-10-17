@@ -1,0 +1,246 @@
+Object = veyron.P3D
+Description = veyron.xml
+
+// передние фары
+sprite = lflare, -0.67, -2.266, 0.581, 4, lights, 0, -1, 0, 1.6
+sprite = rflare, 0.67, -2.266, 0.581, 4, lights, 0, -1, 0, 1.6
+
+
+
+//стопы
+sprite = lstopl, -0.49, 2.018, 0.746, 0.4, stoplights, 0, 1, 0, 1.5
+sprite = lstopl, 0.49, 2.018, 0.746, 0.4, stoplights, 0, 1, 0, 1.5
+sprite = rstopl, -0.574, 2.018, 0.746, 0.4, stoplights2, 0, 1, 0, 1.5
+sprite = rstopl, 0.574, 2.018, 0.746, 0.4, stoplights2, 0, 1, 0, 1.5
+
+//задний ход
+sprite = lbackl, -0.401, 2.048, 0.746, 0.4, backlights2, 0, 1, 0, 1.5
+sprite = rbackl, 0.401, 2.048, 0.746, 0.4, backlights2, 0, 1, 0, 1.5
+
+//nitro
+
+sprite = nitros, 0.248, 1.921, 0.278, 1.2, glass, 0, 1, 0, 0
+sprite = nitro, 0.248, 2.021, 0.278, 0.3, glass, 0, 1, 0, 0
+sprite = nitro, 0.248, 2.121, 0.278, 0.3, glass, 0, 1, 0, 0
+sprite = nitrol, 0.248, 2.221, 0.278, 0.2, glass, 0, 1, 0, 0
+sprite = nitrol, 0.248, 2.301, 0.278, 0.15, glass, 0, 1, 0, 0
+sprite = nitrol, 0.248, 2.361, 0.278, 0.1, glass, 0, 1, 0, 0
+
+sprite = nitros, -0.248, 1.921, 0.278, 1.2, glass, 0, 1, 0, 0
+sprite = nitro, -0.248, 2.021, 0.278, 0.3, glass, 0, 1, 0, 0
+sprite = nitro, -0.248, 2.121, 0.278, 0.3, glass, 0, 1, 0, 0
+sprite = nitrol, -0.248, 2.221, 0.278, 0.2, glass, 0, 1, 0, 0
+sprite = nitrol, -0.248, 2.301, 0.278, 0.15, glass, 0, 1, 0, 0
+sprite = nitrol, -0.248, 2.361, 0.278, 0.1, glass, 0, 1, 0, 0
+/*
+sprite = nitros, 0, 2.121, 0.337, 1.2, glass, 0, 1, 0, 0
+sprite = nitro, 0, 2.221, 0.337, 0.3, glass, 0, 1, 0, 0
+sprite = nitro, 0, 2.321, 0.337, 0.3, glass, 0, 1, 0, 0
+sprite = nitrol, 0, 2.421, 0.337, 0.2, glass, 0, 1, 0, 0
+sprite = nitrol, 0, 2.501, 0.337, 0.15, glass, 0, 1, 0, 0
+sprite = nitrol, 0, 2.561, 0.337, 0.1, glass, 0, 1, 0, 0
+*/
+
+sprite = signalsprite1, 0.398, 0.031, 1.271, 0.5, signal_left2
+sprite = signalsprite2, -0.398, 0.031, 1.271, 0.5, signal_right2
+sprite = signalsprite1_, 0.2, 0.031, 1.271, 0.5, signal_left2
+sprite = signalsprite2_, -0.2, 0.031, 1.271, 0.5, signal_right2
+
+[signalsprite1]
+TextureFile1 = signal_red2.tga
+EffectFile = light_sprite.fx
+EffectFile = flicklight2.fx
+Type = 102
+Shadow = 0
+VertexEffect = flick 18,0,255
+[signalsprite2]
+TextureFile1 = signal_blue2.tga
+EffectFile = light_sprite.fx
+EffectFile = flicklight2.fx
+Type = 102
+Shadow = 0
+VertexEffect = flick 16,0,255
+[signalsprite1_]
+TextureFile1 = signal_red2.tga
+EffectFile = light_sprite.fx
+EffectFile = flicklight2.fx
+Type = 102
+Shadow = 0
+VertexEffect = flick 16,0,255
+[signalsprite2_]
+TextureFile1 = signal_blue2.tga
+EffectFile = light_sprite.fx
+EffectFile = flicklight2.fx
+Type = 102
+Shadow = 0
+VertexEffect = flick 18,0,255
+
+
+[nitros]
+TextureFile1 = glow3.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[nitro]
+TextureFile1 = glow.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[nitrol]
+TextureFile1 = glow2.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+
+[lflare]
+TextureFile1 = glow2_blue.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[rflare]
+TextureFile1 = glow2_blue.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+
+
+[rstopl]
+TextureFile1 = FLARE5.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[lstopl]
+TextureFile1 = glow2_red.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+
+
+
+[lbackl]
+TextureFile1 = FLARE7.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[rbackl]
+TextureFile1 = FLARE7.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[car]
+TextureFile1 = veyron/veyron_car.tga,nomip
+TextureFile2 = lobbycube.dds,cube
+EffectFile = carbody.fx,shared
+//EffectFile = simple.fx
+
+Script = jeep
+Type = 100
+
+[signal]
+TextureFile1 = lambo/lambo_car.tga,nomip
+TextureFile2 = lobbycube.dds,cube
+EffectFile = carbody2.fx,shared
+Type = 100
+[signal_left]
+TextureFile1 = lambo/lambo_car.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = carbody2.fx,shared
+Type = 100
+[signal_right]
+TextureFile1 = lambo/lambo_car.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = carbody2.fx,shared
+Type = 100
+[signal_left2]
+TextureFile1 = lambo/lambo_car.tga
+EffectFile = lamp.fx
+Type = 100
+[signal_right2]
+TextureFile1 = lambo/lambo_car.tga
+EffectFile = lamp.fx
+Type = 100
+
+[glass]
+TextureFile1 = glass_blue.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = glass.fx,shared
+Type = 101
+[glass_flare]
+TextureFile1 = glass_flare.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = glass.fx,shared
+Type = 101
+
+[lights]
+TextureFile1 = veyron/veyron_car.tga
+EffectFile = lamp.fx
+Type = 100
+
+[backlights]
+TextureFile1 = veyron/veyron_car.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = opaque_glass.fx,shared
+Type = 100
+
+[backlights2]
+TextureFile1 = veyron/veyron_car.tga
+EffectFile = lamp.fx
+Type = 100
+
+[stoplights]
+TextureFile1 = veyron/veyron_car.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = opaque_glass.fx,shared
+Type = 100
+
+[stoplights2]
+TextureFile1 = veyron/veyron_car.tga
+EffectFile = lamp.fx
+Type = 100
+
+
+[w1]
+TextureFile1 = veyron/veyron_wheel.tga
+EffectFile = rubber.fx
+Type = 100
+
+[w0]
+TextureFile1 = veyron/veyron_wheel.tga
+EffectFile = rubber.fx
+Type = 100
+
+[w3]
+TextureFile1 = veyron/veyron_wheel.tga
+EffectFile = rubber.fx
+Type = 100
+
+[w2]
+TextureFile1 = veyron/veyron_wheel.tga
+EffectFile = rubber.fx
+Type = 100
+
+
+[interior]
+TextureFile1 = veyron/veyron_car.tga
+EffectFile = rubber.fx
+Type = 100
+
+[ram]
+TextureFile1 = stripes.tga
+EffectFile = rubber.fx
+Type = 100
+visible = 0
+
+[obves]
+TextureFile1 = veyron/veyron_car.tga
+EffectFile = rubber.fx
+Type = 100

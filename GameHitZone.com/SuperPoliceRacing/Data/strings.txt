@@ -1,0 +1,82 @@
+//code~string
+
+move_left~Направо
+move_right~Налево
+move_up~Вперед
+move_down~Назад
+brake~Тормоз
+esc~Выход
+camera~Камера
+
+copyright~
+
+
+100~10 points
+1002~010
+1000~00:00:00
+10000~05 / 22
+alice~SIGNIFICA 
+denis~CELESTA
+kostya~THUNDER
+kostya2~SERPENT
+kostya3~CERBERUS
+
+race_points~rank a > rank a
+finished1~FINISHED 1st
+finished2~FINISHED 2nd
+finished3~FINISHED 3rd
+total_points~total points
+car_unlocked~new car unlocked!
+level_unlocked~new mission unlocked!
+name~NAME:
+points~POINTS:
+races_comp~RACES COMPLETED:
+intro~TAKE PART IN THE GREATEST^RACING CHAMPIONSHIP!^^COMPLETE 10 RACES TO WIN!
+champ~Complete all races one by one^in the competition mode!^Pass by checkpoints until^time is out!^Earn points to unlock new cars!
+single~Practise races in the quick race mode!^No time limits and^points earning!^Learn the tracks to win^in the competition!
+
+spawn~PRESS R TO RESPAWN CAR
+drift~HOLD LEFT CTRL TO DRIFT AROUND THE CORNERS
+help~^         CONTROLS^movement - cursor keys^nitro boost - left alt^hand brakes - left ctrl^respawn - r^pause - esc
+
+bonus_time~BONUS TIME
+drift_time~DRIFT TIME
+sec~sec
+
+road1~9. FIR SPEEDWAY REVERSE
+road2~7. FIR SPEEDWAY
+road3~1. FOREST PARK
+road4~3. FOREST PARK REVERSE
+road5~2. DIAMOND HILLS
+road6~4. DIAMOND HILLS REVERSE
+road7~5. BLUE LAGUNA
+road8~6. BLUE LAGUNA REVERSE
+road9~8. GEMSTONE
+road10~10. GEMSTONE REVERSE
+
+lock3~complete previous mission to unlock
+lock3_5~complete 4 missions and earn^50 points to unlock
+lock3_9~complete 8 missions and earn^120 points to unlock
+lock3_13~complete 12 missions and earn^200 points to unlock
+
+lock1~unlock 5 missions to unlock
+lock2~unlock 9 missions to unlock
+lock4~unlock 13 missions to unlock
+lock5~earn 8000 points in competition to unlock
+
+win1~finish 1st to win the race
+win2~finish 2nd to win the race
+win3~finish 3rd to win the race
+
+
+type0~TRAFFIC ATTACK
+type1~POINT-TO-POINT
+type2~ROAD CLEARANCE
+type3~CRIMINAL PURSUIT
+
+rank0~rank a
+rank1~rank b
+rank2~rank c
+norank~no rank
+
+goals~GOALS 

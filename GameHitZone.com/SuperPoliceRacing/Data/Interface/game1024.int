@@ -1,0 +1,330 @@
+game_interface
+main3.tga,1024,1024
+light,off,4,-4,4,1,0.5,1,smooth
+
+
+
+
+
+[window]
+_nitro1 36,693,22,28,5,994,22,28
+[window]
+_nitro2 45,693,22,28,5,994,22,28
+[window]
+_nitro3 54,693,22,28,5,994,22,28
+[window]
+_nitro4 63,693,22,28,5,994,22,28
+[window]
+_nitro5 72,693,22,28,5,994,22,28
+[window]
+_nitro6 81,693,22,28,5,994,22,28
+[window]
+_nitro7 90,693,22,28,5,994,22,28
+[window]
+_nitro8 99,693,22,28,5,994,22,28
+[window]
+_nitro9 108,693,22,28,5,994,22,28
+[window]
+_nitro10 117,693,22,28,5,994,22,28
+[window]
+_nitro11 126,693,22,28,5,994,22,28
+[window]
+_nitro12 135,693,22,28,5,994,22,28
+[window]
+_nitro13 144,693,22,28,5,994,22,28
+[window]
+_nitro14 153,693,22,28,5,994,22,28
+[window]
+_nitro15 162,693,22,28,5,994,22,28
+[window]
+_nitro16 171,693,22,28,5,994,22,28
+[window]
+_nitro17 180,693,22,28,5,994,22,28
+[window]
+_nitro18 189,693,22,28,5,994,22,28
+[window]
+_nitro19 198,693,22,28,5,994,22,28
+[window]
+_nitro20 207,693,22,28,5,994,22,28
+[window]
+_nitro21 216,693,22,28,5,994,22,28
+[window]
+_nitro22 225,693,22,28,5,994,22,28
+[window]
+_nitro23 234,693,22,28,5,994,22,28
+
+[window]
+wnd_nitro 15,670,286,66,347,938,286,66
+
+
+[window]
+nitro1 36,693,22,28,5,965,22,28
+[window]
+nitro2 45,693,22,28,5,965,22,28
+[window]
+nitro3 54,693,22,28,5,965,22,28
+[window]
+nitro4 63,693,22,28,5,965,22,28
+[window]
+nitro5 72,693,22,28,5,965,22,28
+[window]
+nitro6 81,693,22,28,5,965,22,28
+[window]
+nitro7 90,693,22,28,5,965,22,28
+[window]
+nitro8 99,693,22,28,5,965,22,28
+[window]
+nitro9 108,693,22,28,5,965,22,28
+[window]
+nitro10 117,693,22,28,5,965,22,28
+[window]
+nitro11 126,693,22,28,5,965,22,28
+[window]
+nitro12 135,693,22,28,5,965,22,28
+[window]
+nitro13 144,693,22,28,5,965,22,28
+[window]
+nitro14 153,693,22,28,5,965,22,28
+[window]
+nitro15 162,693,22,28,5,965,22,28
+[window]
+nitro16 171,693,22,28,5,965,22,28
+[window]
+nitro17 180,693,22,28,5,965,22,28
+[window]
+nitro18 189,693,22,28,5,965,22,28
+[window]
+nitro19 198,693,22,28,5,965,22,28
+[window]
+nitro20 207,693,22,28,5,965,22,28
+[window]
+nitro21 216,693,22,28,5,965,22,28
+[window]
+nitro22 225,693,22,28,5,965,22,28
+[window]
+nitro23 234,693,22,28,5,965,22,28
+
+
+[window]
+wnd_rank 99,12,286,86,635,938,286,86
+[window]
+wnd_goals 640,12,286,86,921,938,-286,86
+[window]
+wnd_time 332,15,359,89,343,848,359,89
+
+[text]
+rank_time micra2,140,45,1000
+
+[text]
+completed micra2,715,45,10000
+
+[window]
+rank_a 120,19,97,18,99,998,97,18
+[window]
+rank_b 120,19,97,18,99,979,97,18
+[window]
+rank_c 120,19,97,18,99,959,97,18
+
+[window]
+completed_goals 680,19,233,19,357,1005,233,19
+
+[text]
+time micra,375,45,100
+
+
+/*
+[window]
+wnd_time -55,1,418,78,2,604,418,78,true,lu
+//wnd_time 303,71,418,78,2,604,418,78
+
+[window]
+wnd_checkpointtime 308,-2,407,83,0,941,407,83,true,cu
+[window]
+wnd_points 730,0,427,81,420,603,427,81,true,ru
+
+[window]
+wnd_right 459,150,106,92,635,185,106,92,false,center
+
+[window]
+wnd_left 459,150,106,92,741,185,-106,92,false,center
+
+
+[text]
+checkpointtime bank2,380,25,100,cu
+
+[text]
+points bank5,880,46,1000,ru
+
+[text]
+best bank5,172,3,100,lu
+[text]
+time bank5,167,46,100,lu
+
+[text]
+bonus_pos bank5,10,550,,ld
+[text]
+bonus_pos2 bank5,10,500,,ld
+
+[text]
+bonus_text bank6,10,550,,ld
+[text]
+bonus_text2 bank6,10,500,,ld
+
+[text]
+drift bank5,200,740,drift,cd
+
+[text]
+spawn bank5,330,460,spawn,center
+
+[window]
+wnd_laps 0,81,198,75,9,78,198,75,true,lu
+
+[window]
+wnd_pos 826,81,198,75,9,0,198,75,true,ru
+
+[window]
+wnd_speed 826,624,198,75,9,156,198,75,true,rd
+
+[window]
+wnd_nitro 0,624,198,75,9,237,198,75,true,ld
+
+[window]
+use_nitro 19,700,993,46,19,554,993,46,true,cd
+
+[text]
+speed bank2,805,647,290,rd
+
+[text]
+nitro bank2,20,647,100,ld
+
+
+
+[text]
+round_curr2 bank,841,64,,ru
+
+
+[text]
+round_curr bank,-10,64,2,lu
+
+
+[window]
+start! 322,346,380,76,2,470,380,76,false,center
+[window]
+ready! 322,346,380,76,2,316,380,76,false,center
+[window]
+steady! 322,346,380,76,2,393,380,76,false,center
+
+[window]
+checkpoint! 305,250,414,86,0,688,414,86,false,center
+[window]
+timeout! 305,250,417,81,0,771,417,81,false,center
+[window]
+carcrashed! 305,250,417,81,0,854,417,81,false,center
+
+[window]
+krug_proiden! 322,346,380,76,207,156,380,76,false,center
+
+[window]
+posledniy_krug! 322,346,380,76,207,234,380,76,false,center
+
+[window]
+finish! 292,346,440,75,207,0,440,75,false,center
+
+[window]
+lost! 292,346,440,75,207,78,440,75,false,center
+
+[window]
+drift! 328,346,367,76,648,79,367,76,false,center
+
+[window]
+stopsign 404,311,215,146,745,164,215,146,true,center
+
+[window]
+1st 312,250,400,79,624,318,400,79,true,center
+
+[window]
+2nd 312,250,400,79,624,397,400,79,true,center
+
+[window]
+3rd 312,250,400,79,624,475,400,79,true,center
+
+[window]
+results_back 0,280,1024,300,959,661,10,10,true,center
+
+[window]
+results_back1 0,280,2024,1,991,630,1,1,true,center
+[window]
+results_back2 0,580,2024,1,991,630,1,1,true,center
+[window]
+results_text 294,280,426,90,504,701,436,90,true,center
+[text]
+finished bank3,320,380,finished1,center
+[text]
+finished_text bank3,550,380,1000,center
+[text]
+total bank5,400,420,total_points,center
+[text]
+total_points bank2,360,450,1000,center
+[text]
+car_unlocked bank6,350,540,car_unlocked,center
+*/
+[window]
+steady! 285,346,453,61,534,625,453,61,false
+
+[window]
+ready! 285,346,453,61,534,689,453,61,false
+[window]
+start! 285,346,453,61,534,754,453,61,false
+
+[window]
+norank! 285,346,453,61,534,224,453,61,false
+
+[window]
+rank_a! 285,346,453,61,534,410,453,61,false
+[window]
+rank_b! 285,346,453,61,534,348,453,61,false
+[window]
+rank_c! 285,346,453,61,534,286,453,61,false
+
+[window]
+nearmiss! 285,306,453,49,534,573,453,49,false
+[window]
+directhit! 285,306,453,49,534,523,453,49,false
+[window]
+crash! 285,306,453,49,534,473,453,49,false
+[window]
+traffichit! 285,306,453,49,534,124,453,49,false
+[window]
+criminalhit! 285,306,453,49,534,74,453,49,false
+
+[window]
+results_back 0,280,1024,300,956,904,10,10
+
+[window]
+results_back1 0,280,2024,1,990,881,1,1
+[window]
+results_back2 0,580,2024,1,990,881,1,1
+[window]
+results_text 285,280,453,49,535,174,453,49
+
+[text]
+race_rank gothic,280,330,race_points,center
+[text]
+race_rank_points gothic,370,360,100
+
+[text]
+total gothic,340,420,total_points,center
+[text]
+total_points gothic,450,450,1002
+
+[text]
+level_unlocked gothic,240,502,level_unlocked,center
+[text]
+car_unlocked gothic,280,530,car_unlocked,center
+
+[window]
+use_nitro 10,730,311,28,0,0,311,28
+[window]
+drift 355,730,316,28,0,32,316,28,false
+[window]
+respawn 280,700,463,28,0,67,463,28,false

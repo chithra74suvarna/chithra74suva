@@ -1,0 +1,49 @@
+gamemode
+main.tga,1024,512
+light,off,4,-4,4,1,0.5,1
+//,smooth
+
+[window]
+name 806,97,157,83,577,80,157,83,true,ru
+
+
+[text]
+text bank3,100,450,intro,center
+
+
+[button]
+champ 560,496,421,37,603,303,421,37,true,rd
+champ 560,496,421,38,603,265,421,38,true,rd
+champ 560,496,421,37,603,303,421,37,true,rd
+
+[button]
+single 560,535,421,37,603,380,421,37,true,rd
+single 560,535,421,38,603,341,421,38,true,rd
+single 560,535,421,37,603,380,421,37,true,rd
+
+[button]
+back 645,574,336,37,0,418,336,37,true,rd
+back 645,574,336,38,0,380,336,38,true,rd
+back 645,574,336,37,0,418,336,37,true,rd
+
+[window]
+stats 625,357,394,40,743,87,197,20,true,ru
+[window]
+stats2 625,317,394,40,743,107,197,-20,true,ru
+
+[text]
+name_ bank3,630,317,name,ru
+[text]
+points_ bank3,630,342,points,ru
+[text]
+races_ bank3,630,367,races_comp,ru
+[text]
+name bank3,730,317,name,ru
+[text]
+points bank3,750,342,points,ru
+[text]
+races bank3,920,367,races_comp,ru
+
+
+[window]
+cursor 0,0,48,41,976,0,48,41

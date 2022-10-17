@@ -1,0 +1,17 @@
+Object = empty
+
+sprite = flarik, 0, 0, -1.1, 3
+sprite = flarig, 0, 0, -1.1, 20
+
+
+[flarik]
+TextureFile1 = glow3_yellow.tga
+EffectFile = sprite_nofog2.fx
+Type = 90
+Shadow = 0
+
+[flarig]
+TextureFile1 = glow2_yellow.tga
+EffectFile = sprite_nofog2.fx
+Type = 90
+Shadow = 0

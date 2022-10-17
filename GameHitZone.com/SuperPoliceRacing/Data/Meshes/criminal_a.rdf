@@ -1,0 +1,214 @@
+Object = criminal_a.P3D
+Description = criminal_a.xml
+
+sprite = target, 0, 0, 3, 2, car
+
+// передние фары
+sprite = lflare, -0.802, -2.087, 0.695, 4, lights, 0, -1, 0, 1.6
+sprite = rflare, 0.802, -2.087, 0.695, 4, lights, 0, -1, 0, 1.6
+
+
+
+//стопы
+sprite = lstopl, -0.806, 2.287, 0.803, 0.5, stoplights, 0, 1, 0, 1.5
+sprite = lstopl, 0.806, 2.287, 0.803, 0.5, stoplights, 0, 1, 0, 1.5
+sprite = rstopl, -0.806, 2.287, 0.803, 0.5, stoplights2, 0, 1, 0, 1.5
+sprite = rstopl, 0.806, 2.287, 0.803, 0.5, stoplights2, 0, 1, 0, 1.5
+
+//задний ход
+sprite = lbackl, -0.72, 2.449, 0.551, 0.4, backlights2, 0, 1, 0, 1.5
+sprite = rbackl, 0.72, 2.449, 0.551, 0.4, backlights2, 0, 1, 0, 1.5
+
+//nitro
+sprite = nitros, 0.09, 2.421, 0.301, 1.2, glass, 0, 1, 0, 0
+sprite = nitro, 0.09, 2.521, 0.301, 0.3, glass, 0, 1, 0, 0
+sprite = nitro, 0.09, 2.621, 0.301, 0.3, glass, 0, 1, 0, 0
+sprite = nitrol, 0.09, 2.721, 0.301, 0.2, glass, 0, 1, 0, 0
+sprite = nitrol, 0.09, 2.801, 0.301, 0.15, glass, 0, 1, 0, 0
+sprite = nitrol, 0.09, 2.861, 0.301, 0.1, glass, 0, 1, 0, 0
+
+sprite = nitros, -0.09, 2.421, 0.301, 1.2, glass, 0, 1, 0, 0
+sprite = nitro, -0.09, 2.521, 0.301, 0.3, glass, 0, 1, 0, 0
+sprite = nitro, -0.09, 2.621, 0.301, 0.3, glass, 0, 1, 0, 0
+sprite = nitrol, -0.09, 2.721, 0.301, 0.2, glass, 0, 1, 0, 0
+sprite = nitrol, -0.09, 2.801, 0.301, 0.15, glass, 0, 1, 0, 0
+sprite = nitrol, -0.09, 2.861, 0.301, 0.1, glass, 0, 1, 0, 0
+
+
+
+
+[target]
+TextureFile1 = target.tga
+EffectFile = transparent_nocull.fx
+Type = 120
+Collision = 0
+
+
+
+[nitros]
+TextureFile1 = glow3.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[nitro]
+TextureFile1 = glow.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[nitrol]
+TextureFile1 = glow2.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+
+[lflare]
+TextureFile1 = glow2_blue.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[rflare]
+TextureFile1 = glow2_blue.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+
+
+[rstopl]
+TextureFile1 = FLARE5.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[lstopl]
+TextureFile1 = glow2_red.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+
+
+
+[lbackl]
+TextureFile1 = FLARE7.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[rbackl]
+TextureFile1 = FLARE7.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[car]
+TextureFile1 = criminal.tga,nomip
+TextureFile2 = lobbycube.dds,cube
+EffectFile = carbody_.fx,shared
+Type = 100
+[obves]
+TextureFile1 = criminal.tga,nomip
+EffectFile = rubber.fx
+Type = 100
+[engine]
+TextureFile1 = criminal.tga,nomip
+EffectFile = rubber.fx
+Type = 100
+
+[glass]
+TextureFile1 = glass_red.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = glass.fx,shared
+Type = 101
+[glass_flare]
+TextureFile1 = glass_flare.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = glass.fx,shared
+Type = 101
+
+[lights]
+TextureFile1 = criminal.tga
+EffectFile = lamp.fx
+Type = 100
+
+[backlights]
+TextureFile1 = criminal.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = opaque_glass.fx,shared
+Type = 100
+
+[backlights2]
+TextureFile1 = criminal.tga
+EffectFile = lamp.fx
+Type = 100
+
+[stoplights]
+TextureFile1 = criminal.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = opaque_glass.fx,shared
+Type = 100
+
+[stoplights2]
+TextureFile1 = criminal.tga
+EffectFile = lamp.fx
+Type = 100
+
+
+[w1]
+TextureFile1 = criminal.tga
+EffectFile = rubber.fx
+Type = 100
+
+[w0]
+TextureFile1 = criminal.tga
+EffectFile = rubber.fx
+Type = 100
+
+[w3]
+TextureFile1 = criminal.tga
+EffectFile = rubber.fx
+Type = 100
+
+[w2]
+TextureFile1 = criminal.tga
+EffectFile = rubber.fx
+Type = 100
+[d1]
+TextureFile1 = criminal.tga
+EffectFile = rubber.fx
+Type = 100
+
+[d0]
+TextureFile1 = criminal.tga
+EffectFile = rubber.fx
+Type = 100
+
+[d3]
+TextureFile1 = criminal.tga
+EffectFile = rubber.fx
+Type = 100
+
+[d2]
+TextureFile1 = criminal.tga
+EffectFile = rubber.fx
+Type = 100
+
+[top]
+TextureFile1 = criminal.tga
+EffectFile = rubber.fx
+Type = 100
+
+[interior]
+TextureFile1 = criminal.tga
+EffectFile = rubber.fx
+Type = 100
+[chairs]
+TextureFile1 = criminal.tga
+EffectFile = rubber.fx
+Type = 100
+
+

@@ -1,0 +1,81 @@
+//trasser11 trasser player;     70;   1.5; 0.05; trasser.tga; trasser.fx; 22; sparks; light_cannon.wav
+//trasser12 trasser player;     70;   1.5; 0.05; trasser.tga; trasser.fx; 22; sparks; m_gun_a.wav
+//trasser13 trasser player;     70;   1.5; 0.05; trasser.tga; trasser.fx; 22; sparks; sh_gun.wav
+//gauss1 gauss player;     170;   15; 0.05; trasser_gauss.tga; trasser.fx; 22; sparks; gauss.wav
+//trasser21 trasser enemy;     70;   1.5; 0.05; trasser.tga; trasser.fx; 22; sparks; light_cannon.wav
+//trasser22 trasser enemy;     70;   1.5; 0.05; trasser.tga; trasser.fx; 22; sparks; m_gun_a.wav
+//trasser23 trasser enemy;     70;   1.5; 0.05; trasser.tga; trasser.fx; 22; sparks; sh_gun.wav
+gib gib gib.rdf; 0.01; fire_gib; 5
+//jeep_gib_a gib jeep_gib_a.rdf; 0.01; fire_gib; 5
+//jeep_gib_b gib jeep_gib_b.rdf; 0.01; fire_gib; 5
+//jeep_gib_c gib jeep_gib_c.rdf; 0.01; fire_gib; 5
+//jeep_gib_d gib jeep_gib_d.rdf; 0.01; fire_gib; 5
+//jeep_gib_e gib jeep_gib_e.rdf; 0.01; fire_gib; 5
+gib1 gib1 meat_gib_a.rdf; 0.01; blood; 0.5; 5.0; 0.1; 4; 5
+gib2 gib1 meat_gib_b.rdf; 0.01; blood; 0.5; 5.0; 0.1; 4; 5
+rocket_exp2 s_explosion exp2.tga;	    ;; 5.0; 20.0; 6.0; 7;   7;      50;     3;    3;    0.7;       2.0;  0.97,0.83,0.3; ; ; smoke3; 5; ; exp3.wav,2d
+rocket_exp3 s_explosion exp2.tga;	    ;; 5.0; 20.0; 6.0; 7;   7;      50;     6;    3;    0.7;       2.0;  0.97,0.83,0.3; ; ; ; ; ;
+rocket_exp4_ s_explosion exp2.tga;	    ;; 0.001; 1.25; 0.001; 7;   7;      50;     15;    1;    0.7;       2.0;  0.97,0.83,0.3; ;; smoke4; 4; ;exp3.wav,2d
+rocket_exp4 s_explosion exp2.tga;	    ; ; 0.001; 10.25; 0.001; 7;   7;      50;     15;    3;    0.7;       2.0;  0.97,0.83,0.3; smoke2; 20; smoke3; 4; ; exp3.wav,2d
+rocket_exp4_2 s_explosion exp2.tga;	    ; ; 0.001; 10.25; 0.001; 7;   7;      50;     2;    3;    0.7;       2.0;  0.97,0.83,0.3; ; ; ; ; ; exp3.wav,2d
+//rocket_exp2 s_explosion explozion_no_brizg.tga;	    gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib; ring; 5.0; 20.0; 6.0; 6;   6;      50;     3;    3;    0.7;       2.0;  0.97,0.83,0.3; smoke2; 30; smoke3; 5; bum; exp3.wav,2d
+//mine_exp1 s_explosion explozion_no_brizg.tga;	    gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib, gib; ring; 5.0; 20.0; 8.0; 6;   6;      50;     3;    3;    0.7;       2.0;  0.97,0.83,0.3; smoke2_1; 30; smoke3_1; 5; bum; exp3.wav,2d
+//mine_exp2 s_explosion1 explozion_no_brizg.tga;	    ;; 0.0; 0.0; 50.0; 6;   6;      50;     4.2;    3;    0.7;       2.0;  0.97,0.83,0.3; smoke2_2; 30;; 0;; exp3.wav,2d
+//player_death s_explosion explozion_no_brizg.tga;	    jeep_gib_a, jeep_gib_b, jeep_gib_c, jeep_gib_d, jeep_gib_e, jeep_gib_e, jeep_gib_e, jeep_gib_e; ring; 25.0; 20.0; 10.0; 6;   6;      50;     4.2;    3;    0.7;       2.0;  0.97,0.83,0.3; smoke2; 30; smoke3; 5; bum; exp3.wav
+//plazma plazma 0.2; 2; 40; 1; plazma_shot32.tga; particle_light.fx; 0.4; 2; 2; 24; plazma_shot; plazma_a.wav
+//plazma_shot s_plazma 5; 0.6; 0.1; 5.0; 1.5; 1; plazma_shot32.tga; light.fx; 2; 2; 24
+
+//
+zavulon s_explosion exp2.tga;    gib, gib, gib, gib;; 5.0; 20.0; 6.0; 7;   7;      50;     6;    3;    0.7;       2.0;  0.97,0.83,0.3; fire1; 30; smoke4; 3; ;
+geser s_explosion exp2.tga;	    gib, gib, gib, gib;; 5.0; 20.0; 6.0; 7;   7;      50;     6;    3;    0.7;       2.0;  0.97,0.83,0.3; fire1; 30; smoke4; 3; ;
+simon s_explosion exp2.tga;	    gib, gib, gib, gib;; 5.0; 20.0; 6.0; 7;   7;      50;     6;    3;    0.7;       2.0;  0.97,0.83,0.3; fire1; 30; smoke4; 3; ;
+ilya s_explosion exp2.tga;	    gib, gib, gib, gib;; 5.0; 20.0; 6.0; 7;   7;      50;     6;    3;    0.7;       2.0;  0.97,0.83,0.3; fire1; 30; smoke4; 3; ;
+lena s_explosion exp2.tga;	    gib, gib, gib, gib;; 5.0; 20.0; 6.0; 7;   7;      50;     6;    3;    0.7;       2.0;  0.97,0.83,0.3; fire1; 30; smoke4; 3; ;
+alice s_explosion exp2.tga;	    gib, gib, gib, gib;; 5.0; 20.0; 6.0; 7;   7;      50;     6;    3;    0.7;       2.0;  0.97,0.83,0.3; fire1; 30; smoke4; 3; ;
+denis s_explosion exp2.tga;	    gib, gib, gib, gib;; 5.0; 20.0; 6.0; 7;   7;      50;     6;    3;    0.7;       2.0;  0.97,0.83,0.3; fire1; 30; smoke4; 3; ;
+kostya s_explosion exp2.tga;	    gib, gib, gib, gib;; 5.0; 20.0; 6.0; 7;   7;      50;     6;    3;    0.7;       2.0;  0.97,0.83,0.3; fire1; 30; smoke4; 3; ;
+//
+
+//plazma_shot s_plazma player;     30;   1.5; 0.8; plazma2.tga; light.fx; 22; sparks2;
+//plazma_shot s_plazma player;     60;   7; 0.8; plazma2.tga; light.fx; 22; 0.0; 0.0; 1.0; 10; 1; sparks2; plazma_b.wav,2d
+//plazma_shot2 s_plazma enemy;     30;   5; 0.8; plazma2.tga; light.fx; 22; 0.0; 0.0; 1.0; 10; 1; sparks2; plazma_b.wav
+sparks sparks iskra; 15; 0.2; 1; 80; 0; 2
+sparks3 sparks iskra3; 30; 2.2; 5; 160; 1; 0.5
+sparks4 sparks iskra3; 30; 2.2; 5; 160; 1; 0.5
+sparks4_remont sparks iskra3_remont; 30; 2.2; 5; 160; 1; 0.5
+sparks4_gloom sparks iskra3_gloom; 30; 2.2; 5; 160; 1; 0.5
+sparks4red sparks iskra3red; 30; 2.2; 5; 160; 1; 0.5
+sparks4blue sparks iskra3blue; 30; 2.2; 5; 160; 1; 0.5
+sparks5 sparks iskra4; 30; 2.2; 5; 160; 1; 0.5
+sparks5_1 sparks iskra4_1; 20; 2.2; 5; 160; 1; 0.5;
+sparks5_2 sparks iskra4_2; 20; 2.2; 5; 160; 1; 0.5;
+//sparks1 sparks blood; 15; 0.2; 1; 80; 0; 2
+//sparks2 sparks iskra2; 30; 0.2; 5; 80; 1; 0.5
+//sparks3 sparks iskra3; 30; 2.2; 5; 160; 1; 0.5;bonus.wav,2d
+//sparks4 sparks iskra3; 30; 2.2; 5; 160; 1; 0.5;bonuss.wav,2d
+//check_sparks sparks iskra3; 30; 2.2; 5; 160; 1; 0.5;point_start.wav,2d
+//blood1 blood blood; bryzg; 5; 0.1; 1.0; 80
+//oil1 oil oil; bryzg; 5; 0.1; 1.0; 80
+//alien1 alien alien; bryzg; 5; 0.1; 1.0; 80
+
+
+//rocket1 rocket rocket.rdf; player; 17.0; 10; rocket_exp2; rocket; 1; 1; 0.05; 0.95;rocket.wav
+//srocket1 s_rocket rocket.rdf; player; 3.0; 10; rocket_exp2; rocket; 1; 1; 0.05; 0.95;rocket.wav
+//srocket2 s_rocket rocket.rdf; enemy; 3.0; 10; rocket_exp2; rocket; 1; 1; 0.05; 0.95;rocket.wav
+//rocket1 rocket rocket.rdf; player; 17.0; 10; player_death; rocket; 1; 1; 0.05; 0.95;rocket.wav
+
+//contact mine mine_exp1; 5; none; mina.wav,2d
+//emcontact mine mine_exp2; 5; none; mina.wav,2d
+//timer mine mine_exp1; 2; timer; mina.wav,2d
+//nocontact mine mine_exp1; 5; none; mina.wav,2d
+//emnocontact mine mine_exp2; 5; none; mina.wav,2d
+
+
+//emp1 emp plazma_exp; 100; 1,1,1; 10; 1.167
+
+//time bonus bonus_timewarper; sparks4 ;sparks4;sparks3;20.0;time
+//money bonus bonus_points;sparks4;sparks4;sparks3;20.0;money
+//armor bonus bonus_armor;sparks4 ;sparks4;sparks3;20.0;armor
+//smart bonus bonus_bomb;sparks4 ;sparks4;sparks3;20.0;super
+
+super super exp_big

@@ -1,0 +1,10 @@
+lock3
+lock.tga,1024,1024
+light,off,4,-4,4,1,0.5,1
+
+[window]
+back1 0,0,1024,768,0,0,1024,768
+
+
+[text]
+text font3,90,550,lock3_5,center

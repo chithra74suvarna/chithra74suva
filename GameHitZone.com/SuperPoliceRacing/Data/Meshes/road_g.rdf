@@ -1,0 +1,236 @@
+Object = fp_road.P3D
+
+//ShadowTextures = level1, lightingmap.tga, _shadow.fx
+
+
+[arrow]
+TextureFile1 = arrows2.tga
+EffectFile = burn.fx
+Type = 99
+Collision = 0
+VertexEffect = movingtex 1,0
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////
+
+[building-commercial]
+TextureFile1 = level\buildz1.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[misc_kiosk]
+TextureFile1 = level\buildz4.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[misc_lamppost_ghost]
+TextureFile1 = level\roads.tga
+EffectFile = simple_self.fx
+Type = 0
+Collision = 0
+
+[misc_roadsign_ghost]
+TextureFile1 = level\roads.tga
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 0
+
+[misc_traffic_lights_ghost]
+TextureFile1 = level\roads.tga
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 0
+
+[building-museum]
+TextureFile1 = level\buildz4.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[building-historical]
+TextureFile1 = level\buildz2.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[gas-station]
+TextureFile1 = level\buildz4.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[house]
+TextureFile1 = level\buildz3.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[building-industrial]
+TextureFile1 = level\buildz5.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[hospital]
+TextureFile1 = level\buildz4.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[building-residential-lux]
+TextureFile1 = level\buildz4.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[building-residential]
+TextureFile1 = level\buildz6.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[building-scyscrapers]
+TextureFile1 = level\skyscrp.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[sky_scrape]
+TextureFile1 = level\skyscrp.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+[park-basketball]
+TextureFile1 = level\roads.tga
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 0
+
+[garage]
+TextureFile1 = level\buildz6.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[water_ghost]
+TextureFile1 = level\water-01.tga
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 0
+
+[terrain]
+TextureFile1 = level\grass-2.jpg
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 0
+
+[terrain-buildz]
+TextureFile1 = level\buildz3.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[terrain-grass]
+TextureFile1 = level\grass.tga
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 0
+
+[terrain-roads]
+TextureFile1 = level\roads.tga
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 0
+
+[terrain-roads-a]
+TextureFile1 = level\grass-2.jpg
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 0
+
+[terrain-roads-b]
+TextureFile1 = level\roads2.tga
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 0
+
+[terrain-sand]
+TextureFile1 = level\sand-01.jpg
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 0
+
+[substructure_b]
+TextureFile1 = level\grass-2.jpg
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 0
+
+[substructure]
+TextureFile1 = level\buildz3.tga
+TextureFile2 = chromic8.tga
+EffectFile = alpha_env.fx
+
+
+Type = 0
+Collision = 0
+
+[m_bush_twosided_ghost]
+TextureFile1 = level\trees-02.tga
+EffectFile = holey.fx
+Type = 2
+Collision = 0
+
+[m_tree_twosided_ghost]
+TextureFile1 = level\trees-02.tga
+EffectFile = holey.fx
+Type = 2
+Collision = 0
+

@@ -1,0 +1,100 @@
+WeathersCount: 2
+
+
+TransferTime: 2
+Time: 25
+TimeRandomModificator: 0.5
+CloudFormation: formation.txt
+Meteorites: 0
+HotAir: 0
+MinWindPower: 0
+MaxWindPower: 4
+EddyWind: 1
+EddyWindPeriod: 3
+SpritesOn: 0
+StormOn: 0
+SkyColorOverride: 0
+Probability: 0.8
+Lightnings: 0
+
+TransferTime: 2
+Time: 25
+TimeRandomModificator: 0.5
+CloudFormation: formation.txt
+Meteorites: 0
+HotAir: 0
+MinWindPower: 0
+MaxWindPower: 4
+EddyWind: 1
+EddyWindPeriod: 3
+SpritesOn: 0
+StormOn: 0
+SkyColorOverride: 0
+Probability: 1
+Lightnings: 0
+
+TransferTime: 2
+Time: 25
+TimeRandomModificator: 0.5
+CloudFormation: formation.txt
+Meteorites: 0
+HotAir: 0
+MinWindPower: 0
+MaxWindPower: 4
+EddyWind: 1
+EddyWindPeriod: 3
+SpritesOn: 0
+StormOn: 0
+SkyColorOverride: 0
+Probability: 0.8
+Lightnings: 0
+
+
+
+TransferTime: 2
+Time: 25
+TimeRandomModificator: 0.5
+CloudFormation: formation.txt
+Meteorites: 0
+HotAir: 0
+MinWindPower: 0
+MaxWindPower: 4
+EddyWind: 1
+EddyWindPeriod: 3
+SpritesOn: 0
+StormOn: 0
+SkyColorOverride: 0
+Probability: 1
+Lightnings: 0
+
+TransferTime: 2
+Time: 25
+TimeRandomModificator: 0.5
+CloudFormation: formation.txt
+Meteorites: 0
+HotAir: 0
+MinWindPower: 0
+MaxWindPower: 4
+EddyWind: 1
+EddyWindPeriod: 3
+SpritesOn: 0
+StormOn: 0
+SkyColorOverride: 1
+Probability: 0.3
+Lightnings: 0
+
+TransferTime: 2
+Time: 25
+TimeRandomModificator: 0.5
+CloudFormation: formation.txt
+Meteorites: 0
+HotAir: 0
+MinWindPower: 0
+MaxWindPower: 4
+EddyWind: 1
+EddyWindPeriod: 3
+SpritesOn: 0
+StormOn: 0
+SkyColorOverride: 1
+Probability: 0.4
+Lightnings: 0

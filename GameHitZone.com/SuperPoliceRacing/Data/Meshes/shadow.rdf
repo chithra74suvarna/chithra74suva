@@ -1,0 +1,8 @@
+Object = land.P3D
+
+[plane]
+TextureFile1 = level7\color.dds
+EffectFile = shadow.fx
+Type = 100
+Collision = 0
+Shadow = 0

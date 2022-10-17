@@ -1,0 +1,8 @@
+Object = ufo.P3D
+
+[ufo]
+TextureFile1 = ufo.tga
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 1
+Script = level16

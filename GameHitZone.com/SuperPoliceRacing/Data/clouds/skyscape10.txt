@@ -1,0 +1,503 @@
+TimeModulator: 0.7
+StartCycle: 3
+GlobeRadius: 500
+ZAxisRatio: 0.7
+SidePointsCount: 48
+SkyPos: 0 0 -90 
+StarsTexture: data/textures/stars5.tga
+SkyEffect: data/effects/skyscape.fx
+SectionsCount: 5
+TimesCount: 20
+PlanetsCount: 1
+PlanetEffect1: data/effects/planet.fx
+PlanetEffect2: data/effects/planet2.fx
+CloudFormationsCount: 1
+Weather: weather.txt 
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 36 54 97
+Color: 34 45 87
+Color: 28 34 68
+Color: 14 18 44
+Color: 6 9 29
+Diffuse: 35 49 92
+Ambient: 35 49 92
+CloudDiffuse: 6 9 29
+CloudAmbient: 14 18 44
+FogColor: 35 49 92
+FogStart: 200
+FogEnd: 400
+BloomCoeff: 0.025
+SpritesOn: 1
+PlanetAngle: -23
+PlanetAlpha: 0
+PlanetScale: 1.5
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: -10
+ModificatorChannel: 2
+Color: 185 73 35
+Color: 34 45 87
+Color: 28 34 68
+Color: 14 18 44
+Color: 6 9 29
+Diffuse: 255 136 138
+Ambient: 111 59 60
+CloudDiffuse: 151 60 29
+CloudAmbient: 28 34 68
+FogColor: 111 59 60
+FogStart: 150
+FogEnd: 400
+BloomCoeff: 0.025
+SpritesOn: 0
+PlanetAngle: -5
+PlanetAlpha: 0
+PlanetScale: 1.5
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: -8
+ModificatorChannel: 2
+Color: 255 155 85
+Color: 197 158 153
+Color: 114 113 145
+Color: 47 50 85
+Color: 14 18 44
+Diffuse: 255 169 121
+Ambient: 199 139 105
+CloudDiffuse: 153 93 51
+CloudAmbient: 114 113 145
+FogColor: 225 157 119
+FogStart: 100
+FogEnd: 400
+BloomCoeff: 0.025
+SpritesOn: 0
+PlanetAngle: 33
+PlanetAlpha: 0
+PlanetScale: 1.5
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: -5
+ModificatorChannel: 2
+Color: 215 215 215
+Color: 215 215 215
+Color: 114 113 145
+Color: 47 50 85
+Color: 14 18 44
+Diffuse: 255 255 255
+Ambient: 100 100 105
+//Ambient: 157 157 157
+CloudDiffuse: 106 85 83
+CloudAmbient: 134 133 171
+//FogColor: 225 157 119
+FogColor: 114 113 145
+FogStart: 150
+FogEnd: 1000
+BloomCoeff: 0.025
+SpritesOn: 0
+PlanetAngle: 70
+PlanetAlpha: 0
+PlanetScale: 5.25
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 98 135 176
+Color: 181 180 198
+Color: 197 158 153
+Color: 114 113 145
+Color: 74 78 133
+Diffuse: 246 239 239
+Ambient: 197 158 153
+CloudDiffuse: 40 40 40
+CloudAmbient: 197 158 153
+FogColor: 138 157 187
+FogStart: 200
+FogEnd: 400
+BloomCoeff: 0.023
+SpritesOn: 0
+PlanetAngle: 49
+PlanetAlpha: 0
+PlanetScale: 1
+PlanetSurfaceSwitch: 0
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 71 127 188
+Color: 48 118 190
+Color: 48 131 225
+Color: 32 110 213
+Color: 18 99 204
+Diffuse: 255 246 246
+Ambient: 190 190 190
+CloudDiffuse: 55 55 55
+CloudAmbient: 111 150 209
+FogColor: 255 163 99
+FogStart: 250
+FogEnd: 400
+BloomCoeff: 0.021
+SpritesOn: 0
+PlanetAngle: 67
+PlanetAlpha: 0
+PlanetScale: 1
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 48 131 225
+Color: 48 131 225
+Color: 48 131 225
+Color: 32 110 213
+Color: 18 99 204
+Diffuse: 255 255 255
+Ambient: 190 190 190
+CloudDiffuse: 50 50 50
+CloudAmbient: 111 150 209
+Color: 48 131 225
+FogStart: 300
+FogEnd: 400
+BloomCoeff: 0.0195
+SpritesOn: 0
+PlanetAngle: 85
+PlanetAlpha: 0
+PlanetScale: 1
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 48 131 225
+Color: 48 131 225
+Color: 48 131 225
+Color: 32 110 213
+Color: 18 99 204
+Diffuse: 255 255 255
+Ambient: 190 190 190
+CloudDiffuse: 45 45 45
+CloudAmbient: 111 150 209
+Color: 48 131 225
+FogStart: 300
+FogEnd: 400
+BloomCoeff: 0.019
+SpritesOn: 0
+PlanetAngle: 103
+PlanetAlpha: 0
+PlanetScale: 1
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 48 131 225
+Color: 48 131 225
+Color: 48 131 225
+Color: 32 110 213
+Color: 18 99 204
+Diffuse: 255 255 255
+Ambient: 190 190 190
+CloudDiffuse: 50 50 50
+CloudAmbient: 111 150 209
+Color: 48 131 225
+FogStart: 300
+FogEnd: 400
+BloomCoeff: 0.0195
+SpritesOn: 0
+PlanetAngle: 121
+PlanetAlpha: 0
+PlanetScale: 1
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 71 127 188
+Color: 48 118 190
+Color: 48 131 225
+Color: 32 110 213
+Color: 18 99 204
+Diffuse: 255 246 246
+Ambient: 190 190 190
+CloudDiffuse: 55 55 55
+CloudAmbient: 111 150 209
+FogColor: 60 122 189
+FogStart: 250
+FogEnd: 400
+BloomCoeff: 0.021
+SpritesOn: 0
+PlanetAngle: 139
+PlanetAlpha: 0
+PlanetScale: 1
+PlanetSurfaceSwitch: 0
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 98 135 176
+Color: 181 180 198
+Color: 206 150 143
+Color: 114 113 145
+Color: 74 78 133
+Diffuse: 246 239 239
+Ambient: 197 158 153
+CloudDiffuse: 40 40 40
+CloudAmbient: 197 158 153
+FogColor: 194 164 170
+FogStart: 225
+FogEnd: 400
+BloomCoeff: 0.023
+SpritesOn: 0
+PlanetAngle: 157
+PlanetAlpha: 0
+PlanetScale: 1
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: 5
+ModificatorChannel: 2
+Color: 255 111 39
+Color: 229 121 112
+Color: 114 113 145
+Color: 74 78 133
+Color: 55 58 99
+Diffuse: 255 202 172
+Ambient: 225 157 119
+CloudDiffuse: 100 100 100
+CloudAmbient: 242 116 76
+FogColor: 242 116 76
+FogStart: 200
+FogEnd: 400
+BloomCoeff: 0.025
+SpritesOn: 0
+PlanetAngle: 175
+PlanetAlpha: 0
+PlanetScale: 1.25
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: 8
+ModificatorChannel: 2
+Color: 255 111 39
+Color: 229 121 112
+Color: 114 113 145
+Color: 47 50 85
+Color: 14 18 44
+Diffuse: 255 169 121
+Ambient: 199 139 105
+CloudDiffuse: 80 80 80
+CloudAmbient: 242 116 76
+FogColor: 242 116 76
+FogStart: 200
+FogEnd: 400
+BloomCoeff: 0.025
+SpritesOn: 0
+PlanetAngle: 193
+PlanetAlpha: 0
+PlanetScale: 1.5
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: 10
+ModificatorChannel: 2
+Color: 206 46 0
+Color: 34 45 87
+Color: 28 34 68
+Color: 14 18 44
+Color: 6 9 29
+Diffuse: 255 136 138
+Ambient: 111 59 60
+CloudDiffuse: 237 60 0
+CloudAmbient: 8 12 17
+FogColor: 125 34 7
+FogStart: 225
+FogEnd: 400
+BloomCoeff: 0.025
+SpritesOn: 1
+PlanetAngle: 211
+PlanetAlpha: 0
+PlanetScale: 1.5
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 0
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 36 54 97
+Color: 34 45 87
+Color: 28 34 68
+Color: 14 18 44
+Color: 6 9 29
+Diffuse: 35 49 92
+Ambient: 35 49 92
+CloudDiffuse: 6 9 29
+CloudAmbient: 14 18 44
+FogColor: 35 49 92
+FogStart: 250
+FogEnd: 400
+BloomCoeff: 0.025
+SpritesOn: 1
+PlanetAngle: 229
+PlanetAlpha: 0
+PlanetScale: 1.5
+PlanetSurfaceSwitch: 0
+
+
+Time: 10
+SkyAlpha: 255
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 36 54 97
+Color: 34 45 87
+Color: 28 34 68
+Color: 14 18 44
+Color: 6 9 29
+Diffuse: 35 49 92
+Ambient: 35 49 92
+CloudDiffuse: 6 9 29
+CloudAmbient: 14 18 44
+FogColor: 35 49 92
+FogStart: 250
+FogEnd: 400
+BloomCoeff: 0.025
+SpritesOn: 1
+PlanetAngle: 247
+PlanetAlpha: 0
+PlanetScale: 1.5
+PlanetSurfaceSwitch: 0
+
+Time: 10
+SkyAlpha: 255
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 36 54 97
+Color: 34 45 87
+Color: 28 34 68
+Color: 14 18 44
+Color: 6 9 29
+Diffuse: 35 49 92
+Ambient: 35 49 92
+CloudDiffuse: 6 9 29
+CloudAmbient: 14 18 44
+FogColor: 35 49 92
+FogStart: 250
+FogEnd: 400
+BloomCoeff: 0.025
+SpritesOn: 1
+PlanetAngle: 265
+PlanetAlpha: 0
+PlanetScale: 1.5
+PlanetSurfaceSwitch: 0
+
+Time: 10
+SkyAlpha: 255
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 36 54 97
+Color: 34 45 87
+Color: 28 34 68
+Color: 14 18 44
+Color: 6 9 29
+Diffuse: 35 49 92
+Ambient: 35 49 92
+CloudDiffuse: 6 9 29
+CloudAmbient: 14 18 44
+FogColor: 35 49 92
+FogStart: 250
+FogEnd: 400
+BloomCoeff: 0.025
+SpritesOn: 1
+PlanetAngle: 283
+PlanetAlpha: 0
+PlanetScale: 1.5
+PlanetSurfaceSwitch: 0
+
+Time: 10
+SkyAlpha: 255
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 36 54 97
+Color: 34 45 87
+Color: 28 34 68
+Color: 14 18 44
+Color: 6 9 29
+Diffuse: 35 49 92
+Ambient: 35 49 92
+CloudDiffuse: 6 9 29
+CloudAmbient: 14 18 44
+FogColor: 35 49 92
+FogStart: 250
+FogEnd: 400
+BloomCoeff: 0.025
+SpritesOn: 1
+PlanetAngle: 301
+PlanetAlpha: 0
+PlanetScale: 1.5
+PlanetSurfaceSwitch: 0
+
+Time: 10
+SkyAlpha: 255
+SkyAngle: 0
+ModificatorChannel: 2
+Color: 36 54 97
+Color: 34 45 87
+Color: 28 34 68
+Color: 14 18 44
+Color: 6 9 29
+Diffuse: 35 49 92
+Ambient: 35 49 92
+CloudDiffuse: 6 9 29
+CloudAmbient: 14 18 44
+FogColor: 35 49 92
+FogStart: 250
+FogEnd: 400
+BloomCoeff: 0.025
+SpritesOn: 1
+PlanetAngle: 319
+PlanetAlpha: 0
+PlanetScale: 1.5
+PlanetSurfaceSwitch: 0
+
+
+PlanetVector: 0 -1 0
+PlanetSize: 2
+PlanetRadius: 100
+PlanetAngleOffset: 15
+PlanetSurfacesCount: 1
+PlanetSurfaceTexture: data/textures/sun_sprite.tga
+
+
+CloudFormation: formation.txt
+
+

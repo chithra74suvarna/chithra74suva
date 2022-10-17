@@ -1,0 +1,8 @@
+Object = arrow.P3D
+
+
+[arrow]
+TextureFile1 = arrow.tga
+EffectFile = transparent_nocull.fx
+Type = 99
+Collision = 0

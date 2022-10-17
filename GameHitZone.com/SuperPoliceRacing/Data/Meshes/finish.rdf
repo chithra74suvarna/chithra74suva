@@ -1,0 +1,8 @@
+Object = finish.P3D
+
+
+[finish]
+TextureFile1 = finish.tga
+EffectFile = transparent_nocull.fx
+Type = 98
+Collision = 0

@@ -1,0 +1,5 @@
+//code;name;price;power;description;level;			
+steel;steel;1300;175;steel_descr;3
+steelfibre;steelfibre;3400;225;steelfibre_descr;6
+titan;titan;4800;275;titan_descr;8
+energy;energy;7800;350;energy_descr;10

@@ -1,0 +1,45 @@
+gib2 0smoke128i.tga particle_shadow.fx 6 6 24 1 1
+smoke1 smoke128weak.tga particle_shadow.fx 6 6 24 1 1
+smoke dust_black2.tga particle_smoke.fx 6 6 24 1 1
+smoke_green smoke_green.tga particle_shadow_light.fx 6 6 24 1 1
+gib1 1fire_color.tga particle_light.fx 5 5 24 1 102
+green fire_green.tga particle_light.fx 5 5 24 1 0
+gib3 explozion512_6.tga particle_light.fx 6 6 24 1 0
+ring ring.tga particle_light.fx 2 2 24 1 0
+iskra iskra.tga light.fx 1 1 1 1 103 
+iskra2 iskra2.tga particle_light.fx 1 1 1 1 0 
+iskra3 sprite.tga particle_light.fx 1 1 1 1 103
+iskra3_remont particle_blue.tga particle_light.fx 1 1 1 1 103
+iskra3_gloom particle_mag.tga particle_light.fx 1 1 1 1 103
+iskra3red sprite_red.tga particle_light.fx 1 1 1 1 103
+iskra3blue sprite_sumrak.tga particle_light.fx 1 1 1 1 103
+iskra4 black_flare.dds shadow.fx 1 1 1 1 103
+iskra4_1 particle_mage1.tga particle_light.fx 1 1 1 1 103
+iskra4_2 particle_mage2.tga particle_light.fx 1 1 1 1 103
+gilze gilze.tga gilze.fx 4 4 24 1 0
+derbis derbis.tga holey.fx 4 4 24 1 103
+exp exp2.tga light.fx 7 7 50 1 103
+
+snow sneg.tga particle1.fx 1 1 1 1 102
+
+fire1 1fire_color.tga particle_light.fx 5 5 24 1 102 0.7:0.5:0.5:0.5:1.7,0.3:0.5:0.5:0.5:8.2,0:0.5:0.5:100.5:10
+
+smoke2 smoke512-endless.tga particle.fx 6 6 24 1 1 0:1:1:0.81:2.9,1:1:0.4:0:5,0:1:0.7:0:4
+smoke2_1 smoke512-endless.tga particle.fx 6 6 24 1 1 0:1:1:0.81:1.45,1:1:0.4:0:2.5,0:1:0.7:0:2
+smoke2_2 smoke512-endless.tga particle.fx 6 6 24 1 1 0:0.81:0.81:1:1.45,1:0.4:0.4:1:2.5,0:0:0:1:2
+//pil dust.tga particle1.fx 4 4 24 1 1 0:0.75:0.57:0.3:0.5,1:0.75:0.57:0.3:1.5,0:0.75:0.57:0.3:3.0
+pil dust.dds particle1.fx 6 6 24 1 102 1:0.75:0.57:0.3:0.5,1:0.75:0.57:0.3:1.5,0:0.75:0.57:0.3:3.0
+pil_ dust.dds particle1.fx 6 6 24 1 104
+pil2 dust.dds particle1.fx 6 6 24 1 103
+pil3 dust_black.dds particle1.fx 6 6 24 1 103
+//0:0.75:0.57:0.3:0.5,1:0.75:0.57:0.3:1.5,0:0.75:0.57:0.3:3.0
+smoke3 smoke512-endless.tga particle_smoke.fx 6 6 24 1 102 1:0.5:0.5:0.5:3.4,0.5:0.5:0.5:0.5:16.4,0:0.5:0.5:0.5:8
+//smoke3car smoke512-endless.tga particle_smoke.fx 6 6 24 1 102 0.8:0.1:0.1:0.1:1.0,0.3:0.3:0.3:0.3:2.0,0.2:0.4:0.4:0.4:3.0,0.0:0.5:0.5:0.5:4.0
+smoke3car dust_blackened.dds particle_smoke.fx 6 6 24 1 102 0.8:0.1:0.1:0.1:1.0,0.3:0.3:0.3:0.3:2.0,0.2:0.4:0.4:0.4:3.0,0.0:0.5:0.5:0.5:4.0
+smoke4 smoke512-endless.tga particle_smoke.fx 6 6 24 1 102 0.7:0.5:0.5:0.5:1.7,0.3:0.5:0.5:0.5:8.2,0:0.5:0.5:100.5:10
+smoke3_1 smoke512-endless.tga particle_smoke.fx 6 6 24 1 0 1:0.5:0.5:0.5:1.7,0.5:0.5:0.5:0.5:8.2,0:0.5:0.5:0.5:4
+//smoke2 smoke512-endless.tga particle.fx 6 6 24 1 0 1:1:1:1:2.9,1:1:0:0:2.9,1:1:1:1:2.9,1:1:1:1:2.9,1:1:1:1:2.9
+firethrower 1fire_color.tga particle_light.fx 5 5 24 1 1 0:1:1:1:0.5,1:1:1:1:1,0:0:0:0:3
+
+//rocket smoke512-endless.tga particle.fx 6 6 24 1 0 0:1.0:0.5:0.5:0.3,1.0:1.0:0.2:0.2:0.4,1:1.0:0.5:0.5:0.3,1:1.0:0.7:0.7:0.25,1:1.0:1.0:1.0:0.1,0.8:1.0:1.0:1.0:0.15,0.6:1.0:1.0:1.0:0.2,0.4:1.0:1.0:1.0:0.4,0.2:1.0:1.0:1.0:0.5,0:1.0:1.0:1.0:0.65
+rocket smoke512-endless.tga particle.fx 6 6 24 1 0 1.0:1.0:0.2:0.2:0.3,0.5:1.0:1.0:0.5:0.5,0.5:1.0:1.0:1.0:0.7,0.4:1.0:1.0:1.0:0.9,0.2:1.0:1.0:1.0:1.1,0.0:1.0:1.0:1.0:1.3

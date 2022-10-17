@@ -1,0 +1,19 @@
+//sysname partname ttl initsize scalespeed fade initspeed coneangle dir_x dir_y dir_z acc_x acc_y acc_z volumesize_x volumesize_y volumesize_z
+fire gib1 1.0 0.5 2.0 1 1.5 60 0.4 0.4 1 0 0 0 1 1 2
+fire1 gib1 0.7 0.5 2.0 1 1.5 60 0 -1 0.2 0 -1 0.2 0.3 0.3 0.3
+//fire_monster gib1 1.0 0.3 1.2 1 1.5 60 0.4 0.4 1 0 0 0 0.2 0.2 1.5
+
+snowfall snow 10 0.1 0 0 1 90 0 0 -1 0 0 -5 30 30 10
+snowfall2 snow 10 0.1 0 0 1 90 0 0 -1 0 0 -15 20 20 10
+
+fire_gib gib1 0.4 0.4 -0.6 1 0 0 0 0 1 -0.4 0.6 10 0 0 0
+//smoke_gib smoke2 0.5 0.4 0.5 1 0 0 0 0 1 -0.4 0.6 10 0 0 0
+
+//fire_green green 1.0 0.5 0.7 1 1.5 60 0.4 0.4 1 0 0 0 0.2 0.2 0.2
+smoke pil2 5 1 0.5 1 1.5 20 0.1 0.1 1 0.8 0 2 1 1 2
+smoke2 pil3 6 3 1.3 1 1.8 6 0.1 0.1 1 0.8 0 2 0.5 0.5 1
+smoke3 pil3 5 2 0.1 1 1.8 4 0 -1 0.2 0 -1 0.2 0.5 0.5 0.5
+smoke2_1 pil 6 3 1.3 1 1.8 6 0.1 0.1 1 0.8 0 2 0.5 0.5 1
+smoke3_1 pil 10 2 1.1 1 1.8 4 0 -1 0.2 0 -1 0.2 0.5 0.5 0.5
+//smoke1 gib2 2.5 0.3 1.2 1 5 20 0 0 1 3 3 -5 1 1 1
+//smoke_green smoke_green 1 0.2 2.2 1 2 20 0 0 1 0 0 0 0 0 0

@@ -1,0 +1,7 @@
+Object = gib.P3D
+
+[gib]
+TextureFile1 = gib.tga
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 1

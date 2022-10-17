@@ -1,0 +1,8 @@
+//code;name;price;coeff;description;level;			
+analyzer;analyzer;1100;2;analyzer_descr;7
+repair;repair;4000;1;repair_descr;4
+laser;laser;380;0;laser_descr;1
+bullets;bullets;1000;2;bullets_descr;3
+firerate;firerate;6200;2;firerate_descr;8
+damage;damage;7600;2;damage_descr;11
+regeneration;regeneration;1900;3;regeneration_descr;5

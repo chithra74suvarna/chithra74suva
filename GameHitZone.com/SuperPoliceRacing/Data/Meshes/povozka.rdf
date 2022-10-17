@@ -1,0 +1,8 @@
+Object = povozka.P3D
+
+
+[povozka]
+TextureFile1 = povozka.tga
+EffectFile = simple_matte_nocull.fx
+Type = 0
+Collision = 1

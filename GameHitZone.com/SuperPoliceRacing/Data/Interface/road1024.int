@@ -1,0 +1,111 @@
+road
+main.tga,1024,1024
+light,off,4,-4,4,1,0.5,1
+
+[window]
+name 410,20,600,46,171,250,600,46
+
+/*
+[button]
+select 228,690,168,53,1,0,168,53
+select 645,535,168,53,1,53,168,53
+select 645,535,168,53,1,0,168,53
+ */
+ 
+ 
+[text]
+race_rank_points gothic,0,87,100
+ 
+ 
+ [button]
+select 822,630,168,53,1,0,168,53
+select 645,535,168,53,1,53,168,53
+select 645,535,168,53,1,0,168,53
+
+[button]
+back 822,690,168,53,1,530,168,53
+back 645,574,168,53,1,583,168,53
+back 645,574,168,53,1,530,168,53
+
+[button]
+less 346,690,168,53,173,742,168,53
+less 60,505,168,53,173,795,168,53
+less 60,505,168,53,173,742,168,53
+
+
+[button]
+more 544,690,168,53,173,848,168,53
+more 587,505,168,53,173,901,168,53
+more 587,505,168,53,173,848,168,53
+
+[window]
+noless 346,690,168,53,173,689,168,53
+[window]
+nomore 544,690,168,53,173,636,168,53
+
+[window]
+noselect 822,630,168,53,173,583,168,53
+
+[window]
+rank_a 354,96,331,46,359,691,331,46
+[window]
+rank_b 354,96,331,46,359,738,331,46
+[window]
+rank_c 354,96,331,46,359,785,331,46
+
+/*
+[window]
+stats 625,357,394,40,743,87,197,20,true,ru
+[window]
+stats2 625,317,394,40,743,107,197,-20,true,ru
+
+[text]
+name_ bank3,630,317,name,ru
+[text]
+points_ bank3,630,342,points,ru
+[text]
+races_ bank3,630,367,races_comp,ru
+[text]
+name bank3,730,317,name,ru
+[text]
+points bank3,750,342,points,ru
+[text]
+races bank3,920,367,races_comp,ru
+
+[text]
+road1_red bank3,225,415,,center
+
+[text]
+road2_red bank3,215,415,,center
+
+[text]
+road3_red bank3,165,415,,center
+
+[text]
+road4_red bank3,155,415,,center
+
+[text]
+road5_red bank3,225,415,,center
+
+[text]
+road6_red bank3,175,415,,center
+
+[text]
+road7_red bank3,215,415,,center
+
+[text]
+road8_red bank3,235,415,,center
+
+[text]
+road9_red bank3,175,415,,center
+
+[text]
+road10_red bank3,185,415,,center
+
+[text]
+text bank3,170,595,,center
+*/
+
+
+[window]
+cursor 0,0,56,42,968,982,56,42

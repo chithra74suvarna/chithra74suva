@@ -1,0 +1,6 @@
+logo_na
+../../fsdata/logo_na.png,1024,1024
+light,off,4,-4,4,1,0.5,1,smooth
+
+[window]
+logo 10,10,10,10,0,0,1024,1024

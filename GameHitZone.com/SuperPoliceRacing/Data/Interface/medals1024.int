@@ -1,0 +1,25 @@
+medals
+main2.tga,1024,1024
+light,off,4,-4,4,1,0.5,1,smooth
+
+
+[window]
+goldsmall 880,540,52,52,920,0,104,104,false
+[window]
+silversmall 880,540,52,52,920,104,104,104,false 
+[window]
+bronzesmall 880,540,52,52,920,208,104,104,false 
+
+[text]
+goldtime impact_new,870,580,gold
+
+
+
+[text]
+silvertime impact_new,870,580,silver
+
+
+
+[text]
+bronzetime impact_new,870,580,bronze
+

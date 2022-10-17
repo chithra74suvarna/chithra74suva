@@ -1,0 +1,288 @@
+Object = lambo.P3D
+Description = lambo_enemy.xml
+
+sprite = target, 0, 0, 3, 2, car
+
+// передние фары
+sprite = lflare, -0.757, -2.052, 0.657, 4, lights, 0, -1, 0, 1.6
+sprite = rflare, 0.757, -2.052, 0.657, 4, lights, 0, -1, 0, 1.6
+
+
+
+//стопы
+sprite = lstopl, -0.57, 1.825, 0.915, 0.4, stoplights, 0, 1, 0, 1.5
+sprite = lstopl, 0.57, 1.825, 0.915, 0.4, stoplights, 0, 1, 0, 1.5
+sprite = rstopl, -0.57, 1.825, 0.915, 0.4, stoplights2, 0, 1, 0, 1.5
+sprite = rstopl, 0.57, 1.825, 0.915, 0.4, stoplights2, 0, 1, 0, 1.5
+
+//задний ход
+sprite = lbackl, -0.667, 1.809, 0.915, 0.4, backlights2, 0, 1, 0, 1.5
+sprite = rbackl, 0.667, 1.809, 0.915, 0.4, backlights2, 0, 1, 0, 1.5
+
+//nitro
+sprite = nitros, 0.614, 1.921, 0.494, 1.2, glass, 0, 1, 0, 0
+sprite = nitro, 0.624, 2.021, 0.494, 0.3, glass, 0, 1, 0, 0
+sprite = nitro, 0.634, 2.121, 0.494, 0.3, glass, 0, 1, 0, 0
+sprite = nitrol, 0.644, 2.221, 0.494, 0.2, glass, 0, 1, 0, 0
+sprite = nitrol, 0.654, 2.301, 0.494, 0.15, glass, 0, 1, 0, 0
+sprite = nitrol, 0.664, 2.361, 0.494, 0.1, glass, 0, 1, 0, 0
+
+sprite = nitros, -0.624, 1.921, 0.494, 1.2, glass, 0, 1, 0, 0
+sprite = nitro, -0.634, 2.021, 0.494, 0.3, glass, 0, 1, 0, 0
+sprite = nitro, -0.644, 2.121, 0.494, 0.3, glass, 0, 1, 0, 0
+sprite = nitrol, -0.654, 2.221, 0.494, 0.2, glass, 0, 1, 0, 0
+sprite = nitrol, -0.664, 2.301, 0.494, 0.15, glass, 0, 1, 0, 0
+sprite = nitrol, -0.674, 2.361, 0.494, 0.1, glass, 0, 1, 0, 0
+
+
+
+sprite = signalsprite1, 0.398, 0.031, 1.271, 0.5, signal_left2
+sprite = signalsprite2, -0.398, 0.031, 1.271, 0.5, signal_right2
+sprite = signalsprite1_, 0.2, 0.031, 1.271, 0.5, signal_left2
+sprite = signalsprite2_, -0.2, 0.031, 1.271, 0.5, signal_right2
+
+[target]
+TextureFile1 = target.tga
+EffectFile = transparent_nocull.fx
+Type = 120
+Collision = 0
+
+
+[signalsprite1]
+TextureFile1 = signal_red2.tga
+EffectFile = light_sprite.fx
+EffectFile = flicklight2.fx
+Type = 102
+Shadow = 0
+VertexEffect = flick 18,0,255
+[signalsprite2]
+TextureFile1 = signal_blue2.tga
+EffectFile = light_sprite.fx
+EffectFile = flicklight2.fx
+Type = 102
+Shadow = 0
+VertexEffect = flick 16,0,255
+[signalsprite1_]
+TextureFile1 = signal_red2.tga
+EffectFile = light_sprite.fx
+EffectFile = flicklight2.fx
+Type = 102
+Shadow = 0
+VertexEffect = flick 16,0,255
+[signalsprite2_]
+TextureFile1 = signal_blue2.tga
+EffectFile = light_sprite.fx
+EffectFile = flicklight2.fx
+Type = 102
+Shadow = 0
+VertexEffect = flick 18,0,255
+
+[nitros]
+TextureFile1 = glow3.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[nitro]
+TextureFile1 = glow.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[nitrol]
+TextureFile1 = glow2.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+
+[lflare]
+TextureFile1 = glow2_blue.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[rflare]
+TextureFile1 = glow2_blue.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+
+
+[rstopl]
+TextureFile1 = FLARE5.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[lstopl]
+TextureFile1 = glow2_red.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+
+
+
+[lbackl]
+TextureFile1 = FLARE7.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[rbackl]
+TextureFile1 = FLARE7.tga
+EffectFile = light_sprite.fx
+Type = 102
+Shadow = 0
+
+[car]
+TextureFile1 = lambo/lambo_car.tga,nomip
+TextureFile2 = lobbycube.dds,cube
+EffectFile = carbody.fx,shared
+Type = 100
+
+[grid]
+TextureFile1 = lambo/lambo_grid.tga,nomip
+TextureFile2 = lobbycube.dds,cube
+EffectFile = carbody2.fx,shared
+Type = 100
+[obves]
+TextureFile1 = lambo/lambo_car.tga,nomip
+EffectFile = rubber.fx
+Type = 100
+[rubber]
+TextureFile1 = lambo/lambo_glass.tga,nomip
+TextureFile2 = lobbycube.dds,cube
+EffectFile = carbody2.fx,shared
+Type = 100
+[wing]
+TextureFile1 = lambo/lambo_car.tga,nomip
+TextureFile2 = lobbycube.dds,cube
+EffectFile = carbody2.fx,shared
+Type = 100
+
+[glass]
+TextureFile1 = glass_blue.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = glass.fx,shared
+Type = 101
+[glass2]
+TextureFile1 = glass_flare.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = glass.fx,shared
+Type = 101
+
+[lights]
+TextureFile1 = lambo/lambo_car.tga
+EffectFile = lamp.fx
+Type = 100
+[signal_left]
+TextureFile1 = lambo/lambo_car.tga,nomip
+TextureFile2 = lobbycube.dds,cube
+EffectFile = carbody2.fx,shared
+Type = 100
+[signal_right]
+TextureFile1 = lambo/lambo_car.tga,nomip
+TextureFile2 = lobbycube.dds,cube
+EffectFile = carbody2.fx,shared
+Type = 100
+[signal_left2]
+TextureFile1 = lambo/lambo_car.tga,nomip
+EffectFile = lamp.fx
+Type = 100
+[signal_right2]
+TextureFile1 = lambo/lambo_car.tga,nomip
+EffectFile = lamp.fx
+Type = 100
+
+[backlights]
+TextureFile1 = lambo/lambo_car.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = opaque_glass.fx,shared
+Type = 100
+
+[backlights2]
+TextureFile1 = lambo/lambo_car.tga
+EffectFile = lamp.fx
+Type = 100
+
+[stoplights]
+TextureFile1 = lambo/lambo_car.tga
+TextureFile2 = lobbycube.dds,cube
+EffectFile = opaque_glass.fx,shared
+Type = 100
+
+[stoplights2]
+TextureFile1 = lambo/lambo_car.tga
+EffectFile = lamp.fx
+Type = 100
+
+
+[w1]
+TextureFile1 = lambo/lambo_wheel.tga
+EffectFile = rubber.fx
+Type = 100
+
+[w0]
+TextureFile1 = lambo/lambo_wheel.tga
+EffectFile = rubber.fx
+Type = 100
+
+[w3]
+TextureFile1 = lambo/lambo_wheel.tga
+EffectFile = rubber.fx
+Type = 100
+
+[w2]
+TextureFile1 = lambo/lambo_wheel.tga
+EffectFile = rubber.fx
+Type = 100
+
+[gas]
+TextureFile1 = lambo/lambo_car.tga
+EffectFile = rubber.fx
+Type = 100
+[pilons]
+TextureFile1 = lambo/lambo_car.tga
+EffectFile = rubber.fx
+Type = 100
+
+[tyre]
+TextureFile1 = lambo/lambo_tyre.tga
+EffectFile = rubber.fx
+Type = 100
+[interior]
+TextureFile1 = lambo/lambo_interior.tga
+EffectFile = rubber.fx
+Type = 100
+[seats]
+TextureFile1 = lambo/lambo_seats.tga
+EffectFile = rubber.fx
+Type = 100
+
+[disk]
+TextureFile1 = lambo/lambo_disk.tga
+EffectFile = holey.fx
+Type = 100
+
+[disk_b]
+TextureFile1 = lambo/lambo_wheel.tga
+EffectFile = rubber.fx
+Type = 100
+
+[disk_back]
+TextureFile1 = lambo/lambo_disk_back.tga
+EffectFile = holey.fx
+Type = 100
+
+[brake]
+TextureFile1 = lambo/LAMBO_BRAKES.tga
+EffectFile = rubber.fx
+Type = 100
+[ram]
+TextureFile1 = stripes.tga
+EffectFile = rubber.fx
+Type = 100
+visible = 0

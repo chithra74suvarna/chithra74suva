@@ -1,0 +1,12 @@
+Object = ufo.P3D
+
+psystem = snow, ufo, 0, 0, 0, 0.03, snowfall
+psystem = snow2, ufo, 15, 0, -5, 0.03, snowfall2
+psystem = snow3, ufo, 30, 0, -10, 0.03, snowfall2
+
+[ufo]
+TextureFile1 = ufo.tga
+EffectFile = simple_matte.fx
+Type = 0
+Collision = 1
+Script = level5

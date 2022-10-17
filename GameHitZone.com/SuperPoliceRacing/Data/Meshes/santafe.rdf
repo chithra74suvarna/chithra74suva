@@ -1,0 +1,60 @@
+Object = santafe.P3D
+
+
+sprite = flarig, -0.747, -2.378, 0.982, 3.5, car, 0, -1, 0, 1.0
+sprite = flarig, 0.747, -2.378, 0.982, 3.5, car, 0, -1, 0, 1.0
+sprite = flarig2, -0.693, 2.388, 1.133, 0.5, car, 0, 1, 0, 1.0
+sprite = flarig2, 0.693, 2.388, 1.133, 0.5, car, 0, 1, 0, 1.0
+
+
+[flarig]
+TextureFile1 = glow2_blue.tga
+EffectFile = sprite_nofog2.fx
+Type = 90
+Shadow = 0
+
+[flarig2]
+TextureFile1 = glow2_red.tga
+EffectFile = sprite_nofog2.fx
+Type = 90
+Shadow = 0
+
+
+[shad]
+TextureFile1 = gaz_shad.tga
+EffectFile = shadow.fx
+Type = 20
+
+[car]
+TextureFile1 = santafe.tga,nomip
+TextureFile2 = chromic3.tga
+EffectFile = alpha_env.fx
+Type = 0
+
+
+[lights]
+TextureFile1 = santafe.tga,nomip
+EffectFile = simple_self.fx
+Type = 0
+
+
+[w1]
+TextureFile1 = santafe.tga,nomip
+EffectFile = rubber.fx
+Type = 0
+
+[w0]
+TextureFile1 = santafe.tga,nomip
+EffectFile = rubber.fx
+Type = 0
+
+[w3]
+TextureFile1 = santafe.tga,nomip
+EffectFile = rubber.fx
+Type = 0
+
+[w2]
+TextureFile1 = santafe.tga,nomip
+EffectFile = rubber.fx
+Type = 0
+

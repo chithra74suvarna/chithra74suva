@@ -1,0 +1,10 @@
+Object = wreck.P3D
+
+psystem = fire1, wreck, 0, 0, 0, 0.5, fire, smoke
+
+
+[wreck]
+TextureFile1 = wreck.tga
+EffectFile = simple_matte_nocull.fx
+Type = 0
+Collision = 1
